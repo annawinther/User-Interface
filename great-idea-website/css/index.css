@@ -64,3 +64,41 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.title { 
+	margin: 20px;
+	padding: 20px;
+	text-align: left;
+	color: blue;
+
+}
+.navigation {
+	color: black;
+	display: inline-block;
+	margin: 20px;
+	padding: 20px;
+}
+
+.nav-item{
+  padding: 5px 20px;
+  background: lightgray;
+  margin:10px;
+  border-radius: 5px;
+  display: inline-block;
+  color: black;
+}
+.nav-item:hover{
+	background-color: #e3e3e3;
+}
+.logo {
+	padding: 20px 0 30px 0;
+	box-sizing: border-box;
+
+}
+
+.sub-title{
+	display: block;
+	padding: 10px;
+	margin: 30px;
+	font-size: 40px;
+	
+}

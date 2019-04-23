@@ -71,12 +71,6 @@ h1, h2, h3, h4, h5 {
 	color: blue;
 
 }
-.navigation {
-	color: black;
-	display: inline-block;
-	margin: 20px;
-	padding: 20px;
-}
 
 .nav-item{
   padding: 5px 20px;
@@ -84,24 +78,23 @@ h1, h2, h3, h4, h5 {
   margin: 10px;
   border-radius: 5px;
   display: inline-block;
-  color: black;
+  color: #463b3b98;
+  text-decoration:none;
 }
 .nav-item:hover{
 	background-color: #e3e3e3;
 }
 
 .logo {
-	padding: 20px 0 30px 0;
-	box-sizing: border-box;
-	align-content: right;
+	margin-top:10px;
 
 }
 
 .sub-title{
 	display: block;
-	padding: 0px;
+	padding-bottom: 20px;
 	margin: 5px;
-	font-size: 50px;
+	font-size: 80px;
 	text-align: center;
 }
 
@@ -113,7 +106,7 @@ h1, h2, h3, h4, h5 {
 	width:200px;
 }
 .header {
-	width: 50%;
+	width: 40%;
 	display: inline-block;
 
 }
@@ -130,26 +123,27 @@ h1, h2, h3, h4, h5 {
 h2 {
 	font-size: 20px;
 	display: block;
-	margin: 20px;
+	margin-top: 20px;
+	margin-bottom:20px;
 }
 
-.top-content{
-	margin: 20px;
-	width: 40%;
-	display: inline-block;
+/*.top-content{
+	
 }
+*/
 
 .middle-img {
 	padding: 20px;
-	display: inline-block;
+	width:100%;
 }
 
-.bottom-content {
+/* .bottom-content {
 	margin: 20px;
 	padding: 20px;
 	width: 40%;
 	display: inline-block;
 }
+*/
 
 .content {
 	margin: 20px;
@@ -163,4 +157,25 @@ h2 {
 
 footer {
 	margin: 20px;
+}
+
+
+.row{
+	width:100%;
+	padding:20px;
+	margin:0 auto;
+	max-width:1000px;
+}
+
+.column{
+	display:inline-block;
+}
+
+/* Reduced width to fix margin/padding */
+.col-50{
+	width: 48%; 
+}
+
+.col-33{
+	width:31%
 }
